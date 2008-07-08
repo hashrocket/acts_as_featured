@@ -12,6 +12,10 @@ Add a `featured_at` datetime field to any model that you want to be featured.
 Example
 =======
 
+    # Add the column
+    ./script/generate migration AddFeaturedAtToPost featured_at:datetime
+    rake db:migrate
+
     class Post < ActiveRecord::Base
       acts_as_featured
     end
