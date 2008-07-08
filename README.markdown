@@ -4,6 +4,8 @@ Allows ActiveRecord models to be specified as featured by updating a `featured_a
 
 Also provides named scopes for featured and unfeatured finds.
 
+Requires Rails > 2.1.0
+
 Installation
 ============
 
